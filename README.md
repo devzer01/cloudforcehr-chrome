@@ -18,7 +18,7 @@ document.getElementById("hidIsCompatible").value = "yes";
 - Tested with Chrome Version 40.0.2214.115 (64-bit) Ubuntu 14.04
 
 ## bugs
-- please create an issue on github if you find any bugs
+- please create an issue on github if you find any bugs and or submit a pull-request
 
 # disclaimer 
 i am not affiliated with CloudForce HR, please use this software at your own risk. Some functions of cloudforce-hr may not work if the developers of CloudForce HR has not tested them with Chrome.
