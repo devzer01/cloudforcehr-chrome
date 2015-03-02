@@ -1,10 +1,12 @@
 {
-  	"name": "__MSG_appName__",
-  	"description": "__MSG_appDescription__",
+  	"name": "cloudforcehr-chrome",
+  	"description": "Enable Chrome to use cloudforcehr",
   	"version": "1",
   	"manifest_version": 2,
   	"default_locale": "en",
-  	"permissions": [],
+  	"permissions": [
+      "tabs", "https://clients.cloudforcehr.com/CFH/HM/login.aspx*"
+    ],
   	"icons": {
   		"16": "images/icon-16.png",
   		"128": "images/icon-128.png"
