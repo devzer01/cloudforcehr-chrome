@@ -5,18 +5,16 @@
   	"manifest_version": 2,
   	"default_locale": "en",
   	"permissions": [
-      "tabs", "https://clients.cloudforcehr.com/CFH/HM/login.aspx*"
-    ],
+      		"tabs", "https://clients.cloudforcehr.com/*", "activeTab"
+    	],
   	"icons": {
   		"16": "images/icon-16.png",
   		"128": "images/icon-128.png"
   	},
-  	"app": {
-  		"background": {
-  			"scripts": [
-  				"scripts/main.js",
-  				"scripts/chromereload.js"
-  			]
-  		}
-  	}
+	"content_scripts" : [{
+		"matches" : ["https://clients.cloudforcehr.com/*" ],
+        	"js" : ["scripts/index.js"],
+		"run_at" : "document_end"
+
+    	}]
   }
