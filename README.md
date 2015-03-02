@@ -16,3 +16,6 @@ document.getElementById("hidIsCompatible").value = "yes";
 
 # misc
 - Tested with Chrome Version 40.0.2214.115 (64-bit) Ubuntu 14.04
+
+# bugs
+- please create an issue on github if you find any bugs
