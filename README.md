@@ -8,16 +8,16 @@ you can clearly see that the compatibility flag is being sent from the client.
 ```javascript
 document.getElementById("hidIsCompatible").value = "yes";
 ```
-# build 
+## build 
 - you can build the extension your self from chrome.
 
-# install
+## install
 - download the latest crx file from build directory and drag it to chrome://extensions
 
-# misc
+## misc
 - Tested with Chrome Version 40.0.2214.115 (64-bit) Ubuntu 14.04
 
-# bugs
+## bugs
 - please create an issue on github if you find any bugs
 
 # disclaimer 
