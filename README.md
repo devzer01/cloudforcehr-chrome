@@ -21,4 +21,4 @@ document.getElementById("hidIsCompatible").value = "yes";
 - please create an issue on github if you find any bugs
 
 # disclaimer 
-i am not affiliated with CloudForce HR please use this software at your own risk. Some functions of website may not work if the developers of CloudForce HR has not tested them with chrome. 
+i am not affiliated with CloudForce HR, please use this software at your own risk. Some functions of cloudforce-hr may not work if the developers of CloudForce HR has not tested them with Chrome.
