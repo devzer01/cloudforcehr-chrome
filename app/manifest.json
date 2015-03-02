@@ -6,7 +6,7 @@
   	"default_locale": "en",
   	"permissions": [
       "tabs", "https://clients.cloudforcehr.com/CFH/HM/login.aspx*"
-    ],
+      ],
   	"icons": {
   		"16": "images/icon-16.png",
   		"128": "images/icon-128.png"
