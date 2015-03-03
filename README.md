@@ -12,7 +12,8 @@ document.getElementById("hidIsCompatible").value = "yes";
 - you can build the extension your self from chrome.
 
 ## install
-- download the latest crx file from build directory and drag it to chrome://extensions
+- download latest crx file from build directory (after cloning repo) or from the releases folder https://github.com/devzer01/cloudforcehr-chrome/releases
+- drag it to chrome://extensions
 
 ## misc
 - Tested with Chrome Version 40.0.2214.115 (64-bit) Ubuntu 14.04
