@@ -2,7 +2,7 @@
 A Small extension to allow Chrome users to use cloudforcehr
 
 All this extension does it adjust a hidden html form element value. 
-if you look at the code from [link removed by request of clourforcehr]
+if you look at the code from *[link removed by request of clourforcehr]*
 you can clearly see that the compatibility flag is being sent from the client.
 
 ```javascript
