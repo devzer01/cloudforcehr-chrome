@@ -5,18 +5,20 @@
   	"manifest_version": 2,
   	"default_locale": "en",
   	"permissions": [
-      		"https://clients.cloudforcehr.com/CFM/HM/login.aspx*", "activeTab"
+      		"*://*.cloudforcehr.com/*", "activeTab", "webRequest", "webRequestBlocking"
     	],
   	"icons": {
   		"16": "images/icon-16.png",
   		"128": "images/icon-128.png"
   	},
+    "background": {
+      "scripts": ["scripts/background.js"]
+    },
 	"content_scripts" : [{
-		"matches" : ["https://clients.cloudforcehr.com/CFH/HM/login.aspx*" ],
+		"matches" : ["*://clients.cloudforcehr.com/CFH/HM/login.aspx*" ],
         	"js" : ["scripts/index.js"],
 		"run_at" : "document_end"
 
     	}],
-	"homepage_url" : "https://github.com/devzer01/cloudforcehr-chrome",
-	
+	"homepage_url" : "https://github.com/devzer01/cloudforcehr-chrome"
   }
