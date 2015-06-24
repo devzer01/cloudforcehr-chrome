@@ -8,6 +8,15 @@ you can clearly see that the compatibility flag is being sent from the client.
 ```javascript
 document.getElementById("hidIsCompatible").value = "yes";
 ```
+added extra code to modify the webRequest User-Agent header to spoof IE-9. 
+
+```javascript
+chrome.webRequest.onBeforeSendHeaders.addListener(...);
+
+if (headers[i].name == 'User-Agent') {
+  headers[i].value = "Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))";
+```
+
 ## build 
 - you can build the extension your self from chrome.
 
